@@ -1,2 +1,2 @@
 # Front_Portifolio
-Tela de portfolio realziado durante o curso HTML/CSS na Alura
+Tela de portfolio realizado durante o curso HTML/CSS na Alura
