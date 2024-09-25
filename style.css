@@ -10,7 +10,6 @@ body{
     box-sizing: border-box;
     background-color: #000000;
     color: #F0F0F0;
-    
 }
 .titulo-destaque{
     color: #22D4FD;
@@ -35,16 +34,24 @@ body{
 }
 .apresentacao__links{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao_links_subtitulo{
+    font-family: 'krona one', 'sans-serif';
+    font-weight: 400;
+    font-size: 24;
 }
 .apresentacao__links__link{
-    background-color: #22D4FD;
-    color: #000000;
+    border: 2px solid #22D4FD;
+    color: #f6f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    width: 280px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: px;
     font-size: 24px;
     padding: 21.5px 0px;
     text-decoration: none;
