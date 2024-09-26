@@ -1,51 +1,95 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    height: 80vh;
+
+body {
     box-sizing: border-box;
     background-color: #000000;
     color: #F0F0F0;
-    
+
 }
-.titulo-destaque{
+
+.titulo-destaque {
     color: #22D4FD;
 }
-.apresentacao{
-    margin: 9%;
+
+.apresentacao {
+    padding: 8% 15%;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.apresentacao__conteudo{
+
+.apresentacao__conteudo {
     width: 615px;
-    
+
 }
-.apresentacao__conteudo__titulo{
+
+.apresentacao__conteudo__titulo {
     font-size: 36px;
     font-family: "Krona One", sans-serif;
 }
-.apresentacao__conteudo__texto{
+
+.apresentacao__conteudo__texto {
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
 }
-.apresentacao__links{
+
+.apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
 }
-.apresentacao__links__link{
-    background-color: #22D4FD;
-    color: #000000;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    width: 280px;
-    text-align: center;
-    border-radius: 16px;
+
+.apresentacao__links_subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
     font-size: 24px;
+
+}
+
+.apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-}s
+    color: #F6F6F6;
+    font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
+    background-image: url('https://images.vexels.com/media/users/3/71931/raw/d103d633316b85c3f946fe61bcdf24b7-fundo-floral-vintage-giratorio-simplista.jpg');
+    background-size: cover;
+    /* Garante que a imagem cubra toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Evita repetição da imagem */
+}
+
+.rodape {
+    position: relative;
+    width: 100%;
+    color: #000000;
+    background-color: #22D4FD;
+    font-family: 'montserrat', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400px;
+    padding: 24px;
+}
